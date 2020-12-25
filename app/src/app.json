@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/select/main",
+    "pages/home/main"
+  ],
+  "usingComponents": {
+    "painter": "/components/painter/painter",
+    "van-button": "/static/vant/weapp/dist/button/index",
+    "van-loading": "/static/vant/weapp/dist/loading/index",
+    "van-overlay": "/static/vant/weapp/dist/overlay/index",
+    "van-dialog": "/static/vant/weapp/dist/dialog/index",
+    "van-toast": "/static/vant/weapp/dist/toast/index",
+    "van-notify": "/static/vant/weapp/dist/notify/index",
+    "van-field": "/static/vant/weapp/dist/field/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

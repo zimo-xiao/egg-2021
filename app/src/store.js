@@ -5,14 +5,15 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
+    currentQuestion: 0,
     scoreBoard: {
-      rookie: 2,
-      teams: 1,
+      rookie: 0,
+      teams: 0,
       classin: 0,
       sharepoint: 0,
-      chalk: 2,
+      chalk: 0,
       yammer: 0,
-      yuque: 2
+      yuque: 0
     },
     questions: [
       {

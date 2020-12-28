@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/select/main",
-    "pages/home/main"
+    "pages/index/main",
+    "pages/select/main"
   ],
   "usingComponents": {
     "painter": "/components/painter/painter",

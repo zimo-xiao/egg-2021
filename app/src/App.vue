@@ -4,7 +4,7 @@ import store from './store'
 export default {
   mounted () {
     store.state.music = wx.createInnerAudioContext()
-    store.state.music.src = 'https://zuggr-1255766843.cos.ap-beijing.myqcloud.com/schoolGrad/grad.mp3'
+    store.state.music.src = 'https://egg-1255766843.cos.ap-beijing.myqcloud.com/2021/bgm.mp3'
     store.state.music.autoplay = true
     store.state.music.loop = true
     store.state.music.play()
@@ -14,7 +14,7 @@ export default {
 
 <style>
   .backgroundColor {
-    background-color: #7D0809 !important;
-    border-color: #7D0809 !important;
+    background-color: #FFBC00 !important;
+    border-color: #FFBC00 !important;
   }
 </style>
